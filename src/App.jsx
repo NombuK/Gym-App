@@ -2,7 +2,7 @@ import { useState } from "react";
 import Hero from "./components/Hero";
 import Generator from "./components/Generator";
 import Workout from "./components/Workout";
-import { generateWorkout } from "./utils/Function";
+import { generateWorkout } from "./utils/function";
 
 function App() {
   const [workout, setWorkout] = useState(null);
